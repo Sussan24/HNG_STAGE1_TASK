@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    position: relative;
+    width: 1440px;
+    height: 1158px;
+    background: #FFFFFF;
+    top: 253px;
+    left: -1148px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 112px;
+    gap: 24px;
+    position: absolute;
+    width: 1440px;
+    height: 998px;
+    left: 0px;
+    top: 0px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 32px;
+    width: 1216px;
+    height: 774px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.profile {
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+    width: 1152px;
+    height: 142px;
+}
+.profile__img {
+    width:88px;
+    height: 88px;
+    left: 532px;
+    border-radius: 275px;
+}
+h1 {
+    width:1152px;
+    height:30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #101828;
+}
+.profile_icon {
+    position: absolute;
+    left: 12.5%;
+    right: 11.53%;
+    top: 14.95%;
+    bottom: 14.95%
+    border-radius: 1.66667px solid #98A2B3;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 1152px;
+    height: 576px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.social-section {
+    padding: 24px 0px;
+    gap: 64px;
+    width: 1216px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 1152px;
+    height: 24px;
+}
+.slack {
+    width:24px;
+    height: 24px;
+    left: 540px;
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 9.38%;
+     bottom: 9.38%;
+}
+.icon {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 2.31%;
+    background: #000000;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0px;
+    gap: 64px;
+    position: absolute;
+    width: 1440px;
+    height: 160px;
+    left: 0px;
+    top: 998px;
+}
+.vector {
+    position: absolute;
+    left: 0.72%;
+    right: 0.64%;
+    top: 21.82%;
+    bottom: 0.88%;
+    background: #000000
+}
+.vector1 {
+    position: absolute;
+    left: 27.86%;
+    right: 67.94%;
+    top: 59.79%;
+    bottom: 15.98%;
+    background: #E7332B;
+}
+.footer-text {
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+.i4g_img {
+    height: 32px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
